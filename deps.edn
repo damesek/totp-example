@@ -1,0 +1,17 @@
+{:deps {;; Reitit routing library
+        metosin/reitit {:mvn/version "0.5.18"}
+        ;; One-Time Password (TOTP/HOTP) library
+        one-time/one-time {:mvn/version "0.8.0"}
+        ;; Ring Jetty adapter for running the web server
+        ring/ring-jetty-adapter {:mvn/version "1.9.6"}
+        ;; Ring middleware defaults (sessions, params, etc.)
+        ring/ring-defaults {:mvn/version "0.6.0"}
+        ;; Hiccup HTML generation library
+        hiccup/hiccup {:mvn/version "2.0.0-RC4"}
+        ;;; QR code generator
+        ;;; com.github.kenglxn/QRgen {:mvn/version "3.0.1"}
+        }
+
+ :mvn/repos {"jitpack" {:url "https://jitpack.io"}}
+ :aliases
+ {:run {:main-opts ["-m" "totp-demo.core"]}}}
