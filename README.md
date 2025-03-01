@@ -3,6 +3,9 @@
 
 This project is a simple demo application that demonstrates TOTP-based two-factor authentication in Clojure.
 
+![Demo Registration](resources/screenshot.png "TOTP Demo Registration")
+
+
 It features:
 
 - **Reitit** for routing
